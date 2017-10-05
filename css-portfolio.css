@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* STANDARD*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;	
+}
+
+
+section {
+	min-height: 100%;
+}
+
+a {
+text-decoration: none;	
+}
+
+
+li {
+list-style-type: none;
+}
+
+
+h1, h2, h3, a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #494949;
+	text-transform: uppercase;
+}
+
+a {
+	color: #fff
+}
+
+h1 {
+	color: #fff
+}
+
+h2 {
+	color: #fff;
+	padding-top: 8%;
+	margin-bottom: 5px;
+}
+
+
+h3 {
+	font-size: 40px;
+	padding-top: 8%;
+	margin-bottom: 5px;
+}
+
+
+h4, p {
+	font-family: 'Roboto Slab', serif;
+	color: #494949;
+}
+
+
+hr {
+	width: 30px;
+	height: 3px;
+	background: #494949;
+	border: 0;
+	margin: 0 auto 40px auto;
+}
+
+.trickhr {
+background: #5aa8f1;
+background: rgba(0, 0, 0, 0.0);	
+	
+}
+#logo, li, img   {
+transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
+}
+
+/* HEADER ***************************************/
+
+header {
+width: 100%;
+height: 65px;
+position: fixed;
+top: 0;
+left: 0;
+background: #5aa8f1;
+background: rgba(0, 0, 0, 0.1);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+z-index: 1;
+}
+
+
+#logo {
+width: 110px;
+float: left;
+margin: 10px 0 20 100px;
+}
+
+#logo:hover {
+opacity: 0.5;
+}
+
+#logo img {
+width: 100%;
+}
+
+
+header nav {
+float: right;
+margin: 10px 50px 0 0;
+}
+
+
+header nav ul li {
+	float: left;
+	margin-right: 25px;	
+}
+
+
+
+
+header nav ul li a {
+font-size: 16px;	
+}
+
+
+header nav ul li:hover {
+padding-top: 5px;
+}
+
+
+/* HOME ***************************************/
+
+
+#home {
+background: url(img/landing.png);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+#home h1 {
+margin: 240px auto 0 auto;
+font-size: 110px;
+}
+
+#home h2 {
+margin: 0 auto 0 auto;
+font-size: 25px;
+}
+
+
+#home img {
+width: 32px;
+margin-top: 50px;
+opacity: 0.7;
+}
+
+#home img:hover {
+opacity: 1;
+}
+
+
+/* OM MIG ***************************************/
+
+#om mig img {
+width: 240px;
+}
+
+#om mig img:hover {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+	
+}
+
+.intromig {
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+.progtext {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+
+#om mig h4 {
+font-size: 25px;
+}
+
+#om mig p {
+width: 700px;
+margin: 0 auto 0 auto;
+}
+
+
+* {box-sizing:border-box}
+
+
+.container {
+    
+}
+
+.skills {
+    text-align: right; 
+    padding-right: 20px; 
+    line-height: 30px; 
+    color: white; 
+	font-family: 'Roboto Slab', serif;
+	border-radius: 40px;
+}
+
+ 
+	
+.photoshop {
+	width: 90%; 
+	background: #c2e59c;  
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  
+background: linear-gradient(to right, #64b3f4, #c2e59c); 
+	color: #494949;
+}
+
+
+.illustrator {
+	width: 55%; 
+	background: #c2e59c;  
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  
+background: linear-gradient(to right, #64b3f4, #c2e59c); 
+	color: #494949;
+} 
+
+
+.html {
+	width: 45%; 
+	background: #c2e59c;  
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  
+background: linear-gradient(to right, #64b3f4, #c2e59c); 
+	color: #494949;
+} 
+
+
+.css {
+	width: 40%; 
+	background: #c2e59c;  
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  
+    background: linear-gradient(to right, #64b3f4, #c2e59c); 
+	color: #494949;
+} 
+
+/* PORTFOLIO***************************************/
+
+#Portfolio {
+background-color: #f0f0f0
+}
+
+#projekter {
+width: 900;
+margin: 0 auto 0 auto;
+}
+
+
+#projekter ul {
+padding: 0;
+}
+
+
+#projekter ul li {
+width: 33.3%;
+float: left;
+margin-bottom: 15px;
+
+}
+
+#projekter img {
+width: 280px;
+height: 170px;
+border-radius: 5px;
+}
+
+#projekter img:hover {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* KONTAKT***************************************/
+
+#Kontakt {
+	background: url(img/kort.png);
+}
+
+
+input[type=text], select, textarea {
+    width: 60%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: none 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 60px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width: 50%; 
+    background-color: #ddd; 
+	margin: auto;
+}
+	
+
+
+/* FOOTER***************************************/
+
+	
+	footer {
+	display: block;
+    width: 100%;
+	overflow: hidden;
+    background-color: #f5f5f5;
+	padding:20px 0;
+
+	}
+	
+	footer p {
+		font-size: 12px;
+		color: #ccc;
+	}
+
